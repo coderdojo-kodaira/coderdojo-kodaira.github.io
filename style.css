@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+/* base
+*/
+*{ margin: 0; padding 0;}
+.hidden{ visibility:hidden; width:0; height:0;}
+
+/* area size
+*/
+#syle_19may2014{}
+
+#contents{ width:960px; margin:0 auto; }
+
+#footer{}
+
+#fb-root{ visibility:hidden; width:0; height:0; }
+
+.ads{ margin-bottom:.5em; }
+
+#syle_19may2014 #header{ padding: 1em; }
+#syle_19may2014 #header h2{ margin: .25em 0; padding-left: 1em; }
+
+#syle_19may2014 #main{ padding: 20px; }
+#syle_19may2014 #main .main-item{ margin:0 0 2em 0; }
+
+#syle_19may2014 #main .main-item .main-item-left{
+	float: left;
+	margin: 0 0px 2em 20px;
+	width:520px;
+	min-height:300px;
+}
+#syle_19may2014 #main .main-item .main-item-right{
+	float:right;
+	margin: 0 20px 2em 0;
+	width:340px;
+	min-height:300px;
+}
+#syle_19may2014 #main .supportus{ clear:both; }
+#syle_19may2014 #main .contactus{ clear:both; }
+
+#syle_19may2014 #main .main-item dl{ margin-left:1.5em;}
+#syle_19may2014 #main .main-item dt{ margin-right:.5em;}
+#syle_19may2014 #main .main-item dd{ margin-left:1.5em;}
+
+
+#syle_19may2014 #main .main-text{ padding-left:1em; }
+
+#syle_19may2014 #main .supportus .left{ float: left; width:660px; }
+#syle_19may2014 #main .supportus .right{ float:right; width:250px; height:250px; margin-bottom:.5em; }
+#syle_19may2014 #main .supportus .supportus-donate{}
+
+#syle_19may2014 #main .lesson_issue{ margin: .25em 2em 1em 2em; padding: .5em;}
+#syle_19may2014 #main .lesson_issue dt{clear:both; float:left;}
+
+#syle_19may2014 #main .main-text .mentors-skill-issue{ margin:.25em 0; padding: .5em 0; width:20em; }
+
+#syle_19may2014 #footer{ padding: .5em; }
+
+
+/* design(color,font)
+*/
+#syle_19may2014{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#syle_19may2014 #contents{
+		background-color:#fff;
+}
+
+#syle_19may2014 #header{
+	background:#444;
+	color:#fff;
+}
+
+#syle_19may2014 #header h1{
+	font-family:"Courier New", Courier, monospace;
+}
+#syle_19may2014 #header h2{
+	font-weight: normal;
+	font-size: 1em;
+}
+
+#syle_19may2014 #main{
+}
+
+#syle_19may2014 #main a{ color:#008CFF;}
+#syle_19may2014 #main a:visited{ color:#00CCFF;}
+
+#syle_19may2014 #main .main-item{}
+
+#syle_19may2014 #main .main-item .bosyu:after{ content:"[募集中]"; color:red; font-size:.8em;}
+
+#syle_19may2014 #main .main-text{}
+
+
+#syle_19may2014 #main .lesson_issue{ background-color: #DAC4E3; }
+#syle_19may2014 #main .lesson_issue dt:before{content:"●"; font-size:5px; margin-right:5px;}
+#syle_19may2014 #main .lesson_issue dt:after{content:":";}
+
+#syle_19may2014 #main .main-text .mentors-skill-issue{ border: 2px solid #EFACF9; }
+
+#syle_19may2014 #main .main-text .supportus-donate{
+}
+
+.add-acnt:before{ content:"mail: "; }
+.add-acnt:after{ content:"@"; }
+
+#syle_19may2014 #footer
+{
+	text-align: center;
+	background: #bbb;
+	color:#666;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: .8em;
+}
+
+.ads{ text-align: center; }
