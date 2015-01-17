@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*------------------------------
+
+ 初期設定
+
+------------------------------*/
+/* フォント */
+*{ text-decoration:none; }
+.page_section *{font-size: 16px;} /* 4mmくらい */
+
+/*------------------------------
+
+ ページレイアウト
+
+------------------------------*/
+
+/*--------------------*/
+/* フォントサイズ */
+.page_section h1{ font-size:1.75em; }
+.page_section h2{ font-size:1.5em; }
+.page_section h3{ font-size:1.25em; }
+.page_section h4{ font-size:1.1em; }
+.page_section h5,
+.page_section h6{ font-size:1em; }
+
+.page_section .note{ font-size:.9em; }
+
+/* ルビ
+	ブラウザ（IE、FireFox、Chrome）に依らずルビを表示出来るようにする対策
+	<ruby>タグが使いにくかったので暫定的に。
+	Hou to use→ <span class="ruby"><small>ruby text</small>base text</span> */
+.page_section .ruby{ display:inline-block; line-height:90%; text-align: center; font-size:inherit; }
+.page_section .ruby small{ font-size:.47em; display:block; margin:0; padding:0; }
+
+/*--------------------*/
+/* サブタイトル */
+.page_section h1{ padding:.2em .4em 0; border-bottom:10px solid #888;}
+.page_section h2{ padding:.2em .4em 0; border-bottom:5px solid #aaa;}
+.page_section h3{ padding:.5em .4em 0;}
+
+/* 画像 */
+.page_section img{ margin:.5em auto; }
+
+/* 課題の概要 */
+.page_section .summary{
+	margin: 1em auto;
+	padding: 0 0 .75em;
+	width: 95%;
+	border: 2px dotted gray;
+	border-radius: 6px;
+}
+
+.page_section .summary h3{ margin-bottom: 0 .5em; }
+.page_section .summary p{ padding: 0 1em; }
+
+.page_section table{}
+.page_section td {	border:1px solid #777; }
+
+
+.page_section .item{ margin: .5em; }
+
+/* 補足 */
+.page_section .note{
+	margin: 1em auto;
+	padding: .75em .5em .5em;
+	width: 90%;
+	border: 1px dotted gray;
+	border-radius: 6px;
+}
+
+/* テーブル */
+.page_section table{ margin:0 auto; }
+.page_section table td{ padding: .25em; }
+
+/* リスト各種（初期設定） */
+.page_section ol,
+.page_section ul{ margin:.5em 0 0 2em; }
+.page_section li{ margin:.25em 0; }
+
+/* 訳に立ちそうなブロックの一覧 */
+.page_section .block_list{ list-style:none;}
+.page_section .block_list li{}
+
+
+/* マルチカラム */
+.page_section .wrap2col{ overflow: hidden;}
+.page_section .wrap2col .col_main{ float:left; width:60%; } /* .col_sideとセット */
+.page_section .wrap2col .col_side{ float:left; width:40%; } /* .col_mainとセット */
+.page_section .wrap2col .col_half{ float:left; width:50%; } /* 1/2 */
+.page_section .wrap2col .col_third{ float:left; width:33%; } /* 1/3 */
+
+.page_section .wrap2col .col_main p,
+.page_section .wrap2col .col_side p,
+.page_section .wrap2col .col_half p,
+.page_section .wrap2col .col_third p{ padding:0 .5em; }
+
+/* 画像(左)+テキスト(右)の説明文 */
+.page_section .wrap_imgtext{ overflow:hidden; }
+.page_section .wrap_imgtext .col_half{ float:left; width:50%; }
+.page_section .wrap_imgtext .col_half img{width:99%; border:1px solid #ccc;}
+.page_section .wrap_imgtext .col_half p{margin: .5em 0 0 .5em;}
