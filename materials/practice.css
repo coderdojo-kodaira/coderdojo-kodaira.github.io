@@ -81,6 +81,7 @@
 /* 訳に立ちそうなブロックの一覧 */
 .page_section .block_list{ list-style:none;}
 .page_section .block_list li{}
+.page_section .block_list img{ margin:0; padding:0; }
 
 
 /* マルチカラム */
