@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CoderDojo Kodaira - 資料室：シューティングゲーム（Scratch版） ワークショップ資料</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="otherdoc.css" rel="stylesheet" type="text/css">
+
+<!-- Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51127062-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- //Google Analytics-->
+</head>
+<body>
+
+<header id="header">
+	<h1>資料室：シューティングゲーム（Scratch版） ワークショップ資料</h1>
+</header>
+
+<div id="main">
+	<h2>参考プロジェクト</h2>
+	<ul>
+		<li><a href="http://scratch.mit.edu/projects/2760069/" target="_blank">http://scratch.mit.edu/projects/2760069/</a></li>
+	</ul>
+
+	<h2>躓きやすいところ</h2>
+	<ul>
+		<li>弾が壁にぶつかった時に弾が消えない：<br>座標の概念を理解していなくても可能な方法は、「～に触れた」ブロックを使う。</li>
+		<li>弾と敵の衝突判定：<br>弾は消えるけど、敵は消えない、など。<br>
+			敵と弾の衝突判定をそれぞれのスプライト内に書いて、一方の衝突判定が完了しない間にもう一方の処理が完了してしまうために発生。<br>
+			メッセージを送って同時に処理できるようにする、処理をするまでコンマ数秒の時間を置くなどで対処可能。</li>
+		<li>弾が当っているのに一部の敵は消えない：<br>スプライトを「複製」で増やした場合に一部のスプライトに衝突判定を入れ忘れた、など。</li>
+		<li>敵それぞれから弾を発射させることができない：<br>弾と敵のスプライトを1対1で紐付けている場合ではなく、いずれかあるいは両方を「クローン」で増やした場合に躓きやすい。クローンを上手に活用するには、まず、他の人の作品を「中身を見る」で色々な書き方を勉強するのが早い。</li>
+	</ul>
+</div>
+
+
+<!-- フッタ -->
+<footer id="footer">
+	<div class="cc">
+		<p>この資料は<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 非移植 ライセンス</a>の下に提供されています。<br>
+		<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="images/ccby_88x31.png" /></a></p>
+	</div>
+
+	<div class="copyrt"><a href="http://coderdojo-kodaira.github.io/">CoderDojo Kodaira</a></div>
+</footer>
+<!-- //フッター -->
+
+</body>
+</html>
