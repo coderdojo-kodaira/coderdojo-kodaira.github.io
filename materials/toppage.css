@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+#indexpage{}
+
+#donateme{
+	width: 70%;
+	margin: .5em auto;
+	padding: .25em 1em 1em;
+	border-radius: 1em;
+	background-color: #ccc;
+}
+#donateme h2{ font-size:1.3em; color:#333; }
+
+#main h2{padding: 0 0 .25em; border-bottom: 5px solid #bbb;}
+#main .navi_page h3{padding: 0 0 .1em; border-bottom: 1px dotted #bbb;}
+
+#select_doctype .for_ninja{background-color:#8FD4F5;}
+#select_doctype .for_mentor{background-color:#FFC29E;}
+#select_doctype li{padding:.25em;}
+#select_doctype strong{padding:.25em;}
+
+
+#main .learn_rsc{}
+
+#main .learn_rsc .for_ninja,
+#main .learn_rsc .for_mentor{
+	width:50%;
+}
+
+#main .list_rsc img{width:150px;height:50px;border:none: margin:0; padding:0; }
+
+#main .list_rsc ul{overflow:hidden; margin:0; padding:0;}
+#main .list_rsc li{display:inline-block; margin:0; padding:0;}
+
+#main .learn_rsc h3{margin: 0; padding: .25em 0 .25em .25em; border-left: 4px solid #bbb; border-bottom: 1px solid #bbb; font-size:1.75em;}
+#main .learn_rsc h3 a{text-decoration:none;}
+#main .learn_rsc h4 {margin:.5em; .25em; padding:.25em;}
+
+#main .learn_rsc .for_ninja ol,
+#main .learn_rsc .for_ninja ul,
+#main .learn_rsc .for_mentor ol,
+#main .learn_rsc .for_mentor ul{margin: 0;}
+
+#main .learn_rsc .for_ninja h4{background-color:#8FD4F5;}
+#main .learn_rsc .for_ninja h4:after{ content:' for Ninja'; color:#238DC0; font-size:.75em; }
+
+#main .learn_rsc .for_mentor h4{background-color:#FFC29E;}
+#main .learn_rsc .for_mentor h4:after{ content:' for Mentor'; color:#FF6B13; font-size:.75em; }
+
+#main .learn_rsc .item_doclist p,
+#main .learn_rsc .item_doclist ul,
+#main .learn_rsc .item_doclist ol{margin-bottom:1em;}
+#main .learn_rsc .item_doclist li{margin:.5em inherit;}
+
+#references li,
+#update li{margin: 0; font-size: .75em;}
+
+#header{position: relative;}
+#header .navi_global{
+	position: absolute;
+	font-size: 0.8em;
+	right: 0;
+	top:.5em;
+}
+#header .navi_global ul{ margin: 0; padding: 0; }
+#header .navi_global li{ margin: 0; padding: 0; display:inline-block;}
+#header .navi_global li:after{content: '|';}
