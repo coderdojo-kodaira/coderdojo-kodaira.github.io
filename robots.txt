@@ -1,8 +1,3 @@
 User-agent: *
-Disallow: /.git
-Disallow: /*.js$
-Disallow: /*.css$
 Disallow: /img
-Disallow: /materials/*.js$
-Disallow: /materials/*.css$
 Disallow: /materials/images
