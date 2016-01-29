@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>http://coderdojo-kodaira.github.io/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/about.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/ninjas.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/mentors.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/support.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/first_scratch.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/prc_scratch_01nige.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/prc_scratch_02tataki.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/prc_scratch_04shooting.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/prc_scratch_05block.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/ws_memo_scr_01nige.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/ws_memo_scr_02tataki.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/ws_memo_scr_04shooting.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/ws_memo_scr_05block.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/first_blockly.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/first_codeorg.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>http://coderdojo-kodaira.github.io/materials/bookmarks_chrome_2016jan.html</loc>
+  <priority>0.6</priority>
+</url>
+</urlset>
